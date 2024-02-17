@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("C:/Users/jagad/OneDrive/Desktop/final review/9.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  padding: 1px 0px;
+  border: 1px solid #c8c7c7;
+  border-radius: 8px;
+  box-shadow: 0 0 70px rgba(0, 0, 0, 0.1);
+  margin-top: 20px 30px;
+  
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin:10px 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0%;
+}
+
+input {
+  width: 100%;
+  padding:8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color:  #e7f1f1;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #dfedeb;
+}
+
+.but {
+  background-color:  #37ded8;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: #1c8c8a;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 20px;
+  }
+}

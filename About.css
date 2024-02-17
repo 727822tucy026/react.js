@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("C:\Users\jagad\OneDrive\Desktop\final review\9.png"); 
+    background-size: cover;
+    background-position: fixed ;
+    background-repeat: no-repeat;  
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 ,h3{
+    color: #131313;
+    font-family: Arial;
+  }
+  
+  p {
+    line-height: 1.8;
+    font-size:large;
+  }
+  
+  @media (max-width: 480px) {
+    .form {
+      width: 90%;
+    }
+}
